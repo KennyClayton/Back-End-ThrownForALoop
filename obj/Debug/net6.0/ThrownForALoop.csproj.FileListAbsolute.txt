@@ -1,0 +1,15 @@
+C:\Users\kenny\workspace\ThrownForALoop\bin\Debug\net6.0\ThrownForALoop.exe
+C:\Users\kenny\workspace\ThrownForALoop\bin\Debug\net6.0\ThrownForALoop.deps.json
+C:\Users\kenny\workspace\ThrownForALoop\bin\Debug\net6.0\ThrownForALoop.runtimeconfig.json
+C:\Users\kenny\workspace\ThrownForALoop\bin\Debug\net6.0\ThrownForALoop.dll
+C:\Users\kenny\workspace\ThrownForALoop\bin\Debug\net6.0\ref\ThrownForALoop.dll
+C:\Users\kenny\workspace\ThrownForALoop\bin\Debug\net6.0\ThrownForALoop.pdb
+C:\Users\kenny\workspace\ThrownForALoop\obj\Debug\net6.0\ThrownForALoop.csproj.AssemblyReference.cache
+C:\Users\kenny\workspace\ThrownForALoop\obj\Debug\net6.0\ThrownForALoop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenny\workspace\ThrownForALoop\obj\Debug\net6.0\ThrownForALoop.AssemblyInfoInputs.cache
+C:\Users\kenny\workspace\ThrownForALoop\obj\Debug\net6.0\ThrownForALoop.AssemblyInfo.cs
+C:\Users\kenny\workspace\ThrownForALoop\obj\Debug\net6.0\ThrownForALoop.csproj.CoreCompileInputs.cache
+C:\Users\kenny\workspace\ThrownForALoop\obj\Debug\net6.0\ThrownForALoop.dll
+C:\Users\kenny\workspace\ThrownForALoop\obj\Debug\net6.0\ref\ThrownForALoop.dll
+C:\Users\kenny\workspace\ThrownForALoop\obj\Debug\net6.0\ThrownForALoop.pdb
+C:\Users\kenny\workspace\ThrownForALoop\obj\Debug\net6.0\ThrownForALoop.genruntimeconfig.cache

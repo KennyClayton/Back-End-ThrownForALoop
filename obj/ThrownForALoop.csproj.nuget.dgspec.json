@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kenny\\workspace\\ThrownForALoop\\ThrownForALoop.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kenny\\workspace\\ThrownForALoop\\ThrownForALoop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kenny\\workspace\\ThrownForALoop\\ThrownForALoop.csproj",
+        "projectName": "ThrownForALoop",
+        "projectPath": "C:\\Users\\kenny\\workspace\\ThrownForALoop\\ThrownForALoop.csproj",
+        "packagesPath": "C:\\Users\\kenny\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kenny\\workspace\\ThrownForALoop\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kenny\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.111\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
