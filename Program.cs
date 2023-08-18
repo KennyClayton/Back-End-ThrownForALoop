@@ -87,7 +87,8 @@ while (choice != "0")
     Console.WriteLine(@"Choose an option:
                         0. Exit
                         1. View All Products
-                        2. View Product Details");
+                        2. View Product Details
+                        3. View Latest Additions");
     choice = Console.ReadLine();
     if (choice == "0")
     {
@@ -100,6 +101,10 @@ while (choice != "0")
     else if (choice == "2")
     {
         ViewProductDetails();
+    }
+    else if (choice == "3")
+    {
+        ViewLatestProducts();
     }
 }
 
@@ -197,21 +202,21 @@ void ListProducts()
 void ViewLatestProducts() //this function will allow the user to view 
 {
     // create a new empty List to store the latest products
-    List<Product> latestProducts = new List<Product>(); // List is the 
+    List<Product> latestProducts = new List<Product>(); // List is the variable "type" and Product is the class. "latestProducts" is the variable name. and the key word "new" says to create a new Instance o the product list.
     // Calculate a DateTime 90 days in the past
-    DateTime threeMonthsAgo = DateTime.Now - TimeSpan.FromDays(90);
+    DateTime threeMonthsAgo = DateTime.Now - TimeSpan.FromDays(90); // DateTime is calculated by looking at now (DateTime.now) and subtracting 90 days from now...
     //loop through the products
-    foreach (Product product in products)
+    foreach (Product product in products) //now we'll implement our variable...for each Product class product in our products list...
     {
         //Add a product to latestProducts if it fits the criteria
-        if (product.StockDate > threeMonthsAgo && !product.Sold)
+        if (product.StockDate > threeMonthsAgo && !product.Sold) // ...if the stock date is more than our 90 days variableAND not yet sold out...
         {
-            latestProducts.Add(product);
+            latestProducts.Add(product); //...then ADD those latest products to the product list 
         }
     }
     // print out the latest products to the console 
-    for (int i = 0; i < latestProducts.Count; i++)
+    for (int i = 0; i < latestProducts.Count; i++) // for every instance of a product...
     {
-        Console.WriteLine($"{i + 1}. {latestProducts[i].Name}");
+        Console.WriteLine($"{i + 1}. {latestProducts[i].Name}"); //...display the number and then the product name by index
     }
 }
